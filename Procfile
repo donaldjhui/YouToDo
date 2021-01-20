@@ -1,1 +1,1 @@
-web:gunicorn app:YouToDo
+web:gunicorn YouToDo:app
