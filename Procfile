@@ -1,1 +1,1 @@
-web:gunicorn YouToDo:app
+web:gunicorn YouToDo:app --log-file -
