@@ -11,11 +11,6 @@ app = Flask(__name__)
 
 app.secret_key = 'mysecret'
 
-app.listen(process.env.PORT | | 3000, function(){
-    console.log("Express server listening on port %d in %s mode",
-                this.address().port, app.settings.env)
-})
-
 app.config['MONGO_URI'] = 'mongodb+srv://donaldjhui:BBBsr8123$%@cluster0.90hd4.mongodb.net/YouToDoDB?retryWrites=true&w=majority'
 mongo = PyMongo(app)
 
