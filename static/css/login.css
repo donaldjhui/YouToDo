@@ -6,3 +6,13 @@ webtitle {
   -webkit-text-stroke-color: rgba(129, 198, 255, 0.445);
   text-shadow: 10px 10px #609fff, 20px 20px #a7d0ff;
 }
+
+acctitle {
+  font-size: 50px;
+  text-shadow: 10px #393f47;
+}
+
+regtitle {
+  font-size: 50px;
+  text-shadow: 10px #393f47;
+}
